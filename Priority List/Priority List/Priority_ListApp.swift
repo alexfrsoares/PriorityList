@@ -13,8 +13,8 @@ struct Priority_ListApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskContainerView()
         }
-        .modelContainer(for: Item.self)
+        .modelContainer(for: Task.self)
     }
 }
