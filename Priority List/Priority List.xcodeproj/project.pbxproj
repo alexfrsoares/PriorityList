@@ -11,9 +11,7 @@
 		920502D12A2F9FEE00183108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920502D02A2F9FEE00183108 /* Assets.xcassets */; };
 		920502D42A2F9FEE00183108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920502D32A2F9FEE00183108 /* Preview Assets.xcassets */; };
 		920502DD2A2FA31700183108 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920502DC2A2FA31700183108 /* Task.swift */; };
-		921A68542A31EF7A007AF870 /* TaskDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921A68532A31EF7A007AF870 /* TaskDataManager.swift */; };
 		922782232A30C67D0004935D /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922782222A30C67D0004935D /* TaskView.swift */; };
-		922782252A30CF810004935D /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922782242A30CF800004935D /* TaskViewModel.swift */; };
 		925B69E92A3102270025B478 /* TaskContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B69E82A3102270025B478 /* TaskContainerView.swift */; };
 		925B69EB2A3102A90025B478 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925B69EA2A3102A90025B478 /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
@@ -24,9 +22,7 @@
 		920502D02A2F9FEE00183108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		920502D32A2F9FEE00183108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		920502DC2A2FA31700183108 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		921A68532A31EF7A007AF870 /* TaskDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDataManager.swift; sourceTree = "<group>"; };
 		922782222A30C67D0004935D /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
-		922782242A30CF800004935D /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 		925B69E82A3102270025B478 /* TaskContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskContainerView.swift; sourceTree = "<group>"; };
 		925B69EA2A3102A90025B478 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +62,6 @@
 				920502DC2A2FA31700183108 /* Task.swift */,
 				922782222A30C67D0004935D /* TaskView.swift */,
 				925B69EA2A3102A90025B478 /* AddTaskView.swift */,
-				922782242A30CF800004935D /* TaskViewModel.swift */,
-				921A68532A31EF7A007AF870 /* TaskDataManager.swift */,
 				920502D02A2F9FEE00183108 /* Assets.xcassets */,
 				920502D22A2F9FEE00183108 /* Preview Content */,
 			);
@@ -153,9 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				920502DD2A2FA31700183108 /* Task.swift in Sources */,
-				921A68542A31EF7A007AF870 /* TaskDataManager.swift in Sources */,
 				925B69E92A3102270025B478 /* TaskContainerView.swift in Sources */,
-				922782252A30CF810004935D /* TaskViewModel.swift in Sources */,
 				925B69EB2A3102A90025B478 /* AddTaskView.swift in Sources */,
 				922782232A30C67D0004935D /* TaskView.swift in Sources */,
 				920502CD2A2F9FEC00183108 /* Priority_ListApp.swift in Sources */,

@@ -13,6 +13,20 @@ struct TaskContainerView: View {
     @State private var showingAddTaskView = false
 
     var body: some View {
+        NavigationView {
+            ScrollView(.vertical, showsIndicators: false) {
+                ForEach(tasks) { task in
+                    NavigationLink {
+                        AddTaskView(task: task)
+                    } label: {
+                        TaskView(task: task)
+                            .frame(height: 40)
+                            .padding()
+                    }
+                }
+            }
+        }
+        Spacer()
         Button(action: {
             showingAddTaskView.toggle()
         }, label: {
@@ -20,21 +34,6 @@ struct TaskContainerView: View {
         })
         .sheet(isPresented: $showingAddTaskView) {
             AddTaskView()
-        }
-        NavigationView {
-            ScrollView(.vertical, showsIndicators: false) {
-                ForEach(tasks) { task in
-                    NavigationLink {
-                        AddTaskView(task: task)
-                    } label: {
-//                        Text("\(task.activity)")
-                        TaskView(task: task)
-//                            .scaledToFit()
-                            .frame(height: 40)
-                            .padding()
-                    }
-                }
-            }
         }
     }
 }

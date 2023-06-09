@@ -6,11 +6,9 @@
 //
 
 import SwiftUI
-import Observation
 
 struct TaskView: View {
     var task: Task
-//    var viewModel = TaskViewModel()
 
     var body: some View {
         ZStack {
@@ -36,9 +34,6 @@ struct TaskView: View {
             }
             .padding()
         }
-//        .onAppear() {
-//            self.viewModel.setProperties(task: task)
-//        }
     }
 
     private func getTaskStatusImage(done: Bool) -> String {
