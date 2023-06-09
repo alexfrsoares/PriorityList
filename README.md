@@ -15,4 +15,4 @@ The project contains the following files:
 This explanation is what I understood of this new framework so far.
 I will probably need some updates and fixes soon.
 
-PS: Xcode 15.0 Beta required.
+PS: Xcode 15.0+ Beta required.
