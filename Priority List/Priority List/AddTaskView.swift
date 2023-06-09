@@ -19,9 +19,13 @@ struct AddTaskView: View {
 
     var body: some View {
         VStack(alignment: .leading) {
+            Text("Your Task:")
+                .padding(.top)
+                .padding(.horizontal)
             TextField("Describe your task's activity here", text: $taskActivity)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
+                .padding(.horizontal)
+                .padding(.bottom)
             Text("Task priority:")
                 .padding(.horizontal)
             Picker("Task priority:", selection: $taskPriority) {
@@ -74,6 +78,7 @@ struct AddTaskView: View {
                 Spacer()
             }
             .padding(.vertical)
+            Spacer()
         }
         .onAppear() {
             if let task = self.task {

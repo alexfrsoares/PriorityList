@@ -9,7 +9,6 @@ import SwiftUI
 import SwiftData
 
 struct TaskContainerView: View {
-//    @Environment(\.modelContext) private var modelContest
     @Query private var tasks: [Task]
     @State private var showingAddTaskView = false
 
@@ -17,25 +16,25 @@ struct TaskContainerView: View {
         Button(action: {
             showingAddTaskView.toggle()
         }, label: {
-            Text("New task")
+            Text("Add task")
         })
         .sheet(isPresented: $showingAddTaskView) {
             AddTaskView()
         }
         NavigationView {
-            List {
+            ScrollView(.vertical, showsIndicators: false) {
                 ForEach(tasks) { task in
                     NavigationLink {
                         AddTaskView(task: task)
                     } label: {
-                        Text("\(task.activity)")
+//                        Text("\(task.activity)")
+                        TaskView(task: task)
+//                            .scaledToFit()
+                            .frame(height: 40)
+                            .padding()
                     }
                 }
             }
         }
     }
-}
-
-#Preview {
-    TaskContainerView()
 }

@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		920502CD2A2F9FEC00183108 /* Priority_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920502CC2A2F9FEC00183108 /* Priority_ListApp.swift */; };
-		920502CF2A2F9FEC00183108 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920502CE2A2F9FEC00183108 /* ContentView.swift */; };
 		920502D12A2F9FEE00183108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920502D02A2F9FEE00183108 /* Assets.xcassets */; };
 		920502D42A2F9FEE00183108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920502D32A2F9FEE00183108 /* Preview Assets.xcassets */; };
-		920502D62A2F9FEE00183108 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920502D52A2F9FEE00183108 /* Item.swift */; };
 		920502DD2A2FA31700183108 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920502DC2A2FA31700183108 /* Task.swift */; };
 		921A68542A31EF7A007AF870 /* TaskDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921A68532A31EF7A007AF870 /* TaskDataManager.swift */; };
 		922782232A30C67D0004935D /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922782222A30C67D0004935D /* TaskView.swift */; };
@@ -23,10 +21,8 @@
 /* Begin PBXFileReference section */
 		920502C92A2F9FEC00183108 /* Priority List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Priority List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		920502CC2A2F9FEC00183108 /* Priority_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority_ListApp.swift; sourceTree = "<group>"; };
-		920502CE2A2F9FEC00183108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		920502D02A2F9FEE00183108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		920502D32A2F9FEE00183108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		920502D52A2F9FEE00183108 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		920502DC2A2FA31700183108 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		921A68532A31EF7A007AF870 /* TaskDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDataManager.swift; sourceTree = "<group>"; };
 		922782222A30C67D0004935D /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
@@ -66,15 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				920502CC2A2F9FEC00183108 /* Priority_ListApp.swift */,
-				920502CE2A2F9FEC00183108 /* ContentView.swift */,
 				925B69E82A3102270025B478 /* TaskContainerView.swift */,
-				925B69EA2A3102A90025B478 /* AddTaskView.swift */,
+				920502DC2A2FA31700183108 /* Task.swift */,
 				922782222A30C67D0004935D /* TaskView.swift */,
+				925B69EA2A3102A90025B478 /* AddTaskView.swift */,
 				922782242A30CF800004935D /* TaskViewModel.swift */,
 				921A68532A31EF7A007AF870 /* TaskDataManager.swift */,
 				920502D02A2F9FEE00183108 /* Assets.xcassets */,
-				920502D52A2F9FEE00183108 /* Item.swift */,
-				920502DC2A2FA31700183108 /* Task.swift */,
 				920502D22A2F9FEE00183108 /* Preview Content */,
 			);
 			path = "Priority List";
@@ -163,8 +157,6 @@
 				925B69E92A3102270025B478 /* TaskContainerView.swift in Sources */,
 				922782252A30CF810004935D /* TaskViewModel.swift in Sources */,
 				925B69EB2A3102A90025B478 /* AddTaskView.swift in Sources */,
-				920502CF2A2F9FEC00183108 /* ContentView.swift in Sources */,
-				920502D62A2F9FEE00183108 /* Item.swift in Sources */,
 				922782232A30C67D0004935D /* TaskView.swift in Sources */,
 				920502CD2A2F9FEC00183108 /* Priority_ListApp.swift in Sources */,
 			);
