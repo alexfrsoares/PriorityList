@@ -128,5 +128,5 @@ struct AddTaskView: View {
 }
 
 #Preview {
-    AddTaskView(taskActivity: "Entregar projetinho no github", taskPriority: 2)
+    AddTaskView(taskActivity: "Task description", taskPriority: 2)
 }
